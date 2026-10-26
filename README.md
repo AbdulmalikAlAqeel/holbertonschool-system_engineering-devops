@@ -15,4 +15,16 @@ This repository contains the projects for the **Web Infrastructure Design** modu
     - Application Server
     - Application Files (Codebase)
     - Database (MySQL)
-- **Diagram:** [https://excalidraw.com/#json=fgmgHTAct051Rvmn5W0Lr,lWzyD914WNZ9U7zVMbWj_A]
+- **Diagram:** [https://imgur.com/kne56D8]
+
+
+### 1. Distributed Web Infrastructure
+- **Objective:** Design and explain a three-server web infrastructure to overcome single-server limitations, featuring a load balancer and distributed nodes.
+- **Infrastructure Components:**
+  - 1 Load Balancer (HAProxy) distributing incoming traffic.
+  - 2 Servers, each containing:
+    - Web Server (Nginx)
+    - Application Server
+    - Application Files (Codebase)
+    - Database (MySQL Primary-Replica cluster)
+- **Diagram:** [https://imgur.com/0CVNvbq]
